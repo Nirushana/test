@@ -3,11 +3,11 @@
 
 int main()
 {
-    int marks, admiNum;
+    int marks, idNum;
     char grade;
     //getting user input of admission no and marks.
     printf("\nEnter Admission Number:");
-    scanf("%d",&admiNum);
+    scanf("%d",&idNum);
 
     printf("\nEnter Marks:");
     scanf("%d",&marks);
@@ -21,7 +21,7 @@ int main()
     else
         grade= 'F';
         //this is the output of the admission No and grade.
-    printf("\n Admission Number is %d\n",admiNum);
+    printf("\n Admission Number is %d\n",idNum);
     printf("\n Your Grades are %c\n",grade);
 
     return 0;
